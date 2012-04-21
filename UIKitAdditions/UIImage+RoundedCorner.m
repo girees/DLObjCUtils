@@ -5,6 +5,7 @@
 
 #import "UIImage+RoundedCorner.h"
 #import "UIImage+Additions.h"
+#import "UIImage+Alpha.h"
 #import "UIKit+DrawingHelpers.h"
 
 
