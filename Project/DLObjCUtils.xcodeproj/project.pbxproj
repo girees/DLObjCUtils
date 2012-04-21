@@ -59,7 +59,7 @@
 		7D4ACF8715429C7D005F0FA2 /* Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF5115429C7D005F0FA2 /* Util.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4ACF8815429C7D005F0FA2 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF5215429C7D005F0FA2 /* Util.m */; };
 		7D4ACF8915429CB4005F0FA2 /* DLObjCUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF0C15429BFB005F0FA2 /* DLObjCUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D4ACF8C1542A1BD005F0FA2 /* UIImage+Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF8A1542A1BD005F0FA2 /* UIImage+Alpha.h */; };
+		7D4ACF8C1542A1BD005F0FA2 /* UIImage+Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF8A1542A1BD005F0FA2 /* UIImage+Alpha.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4ACF8D1542A1BD005F0FA2 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF8B1542A1BD005F0FA2 /* UIImage+Alpha.m */; };
 		7D4ACF911542A540005F0FA2 /* TimeHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF8F1542A540005F0FA2 /* TimeHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4ACF921542A540005F0FA2 /* TimeHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF901542A540005F0FA2 /* TimeHelpers.m */; };
