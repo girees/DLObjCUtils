@@ -13,8 +13,7 @@ syntax: glob
 **/build/*
 build/*
 
-xcuserdata/*
-**/xcuserdata/*
+xcuserdata/
 
 *.pbxuser
 *.perspective
