@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D4ACF0815429BFB005F0FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D4ACF0715429BFB005F0FA2 /* Foundation.framework */; };
+		7D4ACF5315429C7D005F0FA2 /* FPTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF1915429C7D005F0FA2 /* FPTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF5415429C7D005F0FA2 /* FPTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF1A15429C7D005F0FA2 /* FPTuple.m */; };
+		7D4ACF5515429C7D005F0FA2 /* NSArray+FPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF1B15429C7D005F0FA2 /* NSArray+FPAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF5615429C7D005F0FA2 /* NSArray+FPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF1C15429C7D005F0FA2 /* NSArray+FPAdditions.m */; };
+		7D4ACF5715429C7D005F0FA2 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF1D15429C7D005F0FA2 /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF5815429C7D005F0FA2 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF1E15429C7D005F0FA2 /* NSData+Base64.m */; };
+		7D4ACF5915429C7D005F0FA2 /* NSData+CocoaDevUsersAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF1F15429C7D005F0FA2 /* NSData+CocoaDevUsersAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF5A15429C7D005F0FA2 /* NSData+CocoaDevUsersAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF2015429C7D005F0FA2 /* NSData+CocoaDevUsersAdditions.m */; };
+		7D4ACF5B15429C7D005F0FA2 /* NSDate+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF2115429C7D005F0FA2 /* NSDate+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF5C15429C7D005F0FA2 /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF2215429C7D005F0FA2 /* NSDate+Additions.m */; };
+		7D4ACF5D15429C7D005F0FA2 /* NSObject+KVCExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF2315429C7D005F0FA2 /* NSObject+KVCExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF5E15429C7D005F0FA2 /* NSObject+KVCExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF2415429C7D005F0FA2 /* NSObject+KVCExtensions.m */; };
+		7D4ACF5F15429C7D005F0FA2 /* NSObject+ObserveActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF2515429C7D005F0FA2 /* NSObject+ObserveActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF6015429C7D005F0FA2 /* NSObject+ObserveActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF2615429C7D005F0FA2 /* NSObject+ObserveActions.m */; };
+		7D4ACF6115429C7D005F0FA2 /* NSString+PercentEscape.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF2715429C7D005F0FA2 /* NSString+PercentEscape.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF6215429C7D005F0FA2 /* NSString+PercentEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF2815429C7D005F0FA2 /* NSString+PercentEscape.m */; };
+		7D4ACF6315429C7D005F0FA2 /* NSString+StringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF2915429C7D005F0FA2 /* NSString+StringAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF6415429C7D005F0FA2 /* NSString+StringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF2A15429C7D005F0FA2 /* NSString+StringAdditions.m */; };
+		7D4ACF6515429C7D005F0FA2 /* NSURL+ParameterParsing.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF2B15429C7D005F0FA2 /* NSURL+ParameterParsing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF6615429C7D005F0FA2 /* NSURL+ParameterParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF2C15429C7D005F0FA2 /* NSURL+ParameterParsing.m */; };
+		7D4ACF6915429C7D005F0FA2 /* PathUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF3015429C7D005F0FA2 /* PathUtils.c */; };
+		7D4ACF6A15429C7D005F0FA2 /* PathUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF3115429C7D005F0FA2 /* PathUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF6B15429C7D005F0FA2 /* DLFolding.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF3215429C7D005F0FA2 /* DLFolding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF6C15429C7D005F0FA2 /* SynthesizeSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF3315429C7D005F0FA2 /* SynthesizeSingleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF6D15429C7D005F0FA2 /* InnerShadowDrawing.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF3515429C7D005F0FA2 /* InnerShadowDrawing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF6E15429C7D005F0FA2 /* InnerShadowDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF3615429C7D005F0FA2 /* InnerShadowDrawing.m */; };
+		7D4ACF6F15429C7D005F0FA2 /* UIColor+HelperAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF3715429C7D005F0FA2 /* UIColor+HelperAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF7015429C7D005F0FA2 /* UIColor+HelperAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF3815429C7D005F0FA2 /* UIColor+HelperAdditions.m */; };
+		7D4ACF7115429C7D005F0FA2 /* UIControl+DLBlockAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF3915429C7D005F0FA2 /* UIControl+DLBlockAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF7215429C7D005F0FA2 /* UIControl+DLBlockAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF3A15429C7D005F0FA2 /* UIControl+DLBlockAdditions.m */; };
+		7D4ACF7315429C7D005F0FA2 /* UIImage+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF3B15429C7D005F0FA2 /* UIImage+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF7415429C7D005F0FA2 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF3C15429C7D005F0FA2 /* UIImage+Additions.m */; };
+		7D4ACF7515429C7D005F0FA2 /* UIImage+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF3D15429C7D005F0FA2 /* UIImage+Resize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF7615429C7D005F0FA2 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF3E15429C7D005F0FA2 /* UIImage+Resize.m */; };
+		7D4ACF7715429C7D005F0FA2 /* UIImage+RoundedCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF3F15429C7D005F0FA2 /* UIImage+RoundedCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF7815429C7D005F0FA2 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF4015429C7D005F0FA2 /* UIImage+RoundedCorner.m */; };
+		7D4ACF7915429C7D005F0FA2 /* UIKit+DrawingHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF4115429C7D005F0FA2 /* UIKit+DrawingHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF7A15429C7D005F0FA2 /* UIKit+DrawingHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF4215429C7D005F0FA2 /* UIKit+DrawingHelpers.m */; };
+		7D4ACF7B15429C7D005F0FA2 /* UITabBarController+HideableTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF4315429C7D005F0FA2 /* UITabBarController+HideableTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF7C15429C7D005F0FA2 /* UITabBarController+HideableTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF4415429C7D005F0FA2 /* UITabBarController+HideableTabBar.m */; };
+		7D4ACF7D15429C7D005F0FA2 /* UIView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF4515429C7D005F0FA2 /* UIView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF7E15429C7D005F0FA2 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF4615429C7D005F0FA2 /* UIView+Additions.m */; };
+		7D4ACF7F15429C7D005F0FA2 /* UIView+Sliding.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF4715429C7D005F0FA2 /* UIView+Sliding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF8015429C7D005F0FA2 /* UIView+Sliding.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF4815429C7D005F0FA2 /* UIView+Sliding.m */; };
+		7D4ACF8115429C7D005F0FA2 /* PopoverManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF4A15429C7D005F0FA2 /* PopoverManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF8215429C7D005F0FA2 /* PopoverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF4B15429C7D005F0FA2 /* PopoverManager.m */; };
+		7D4ACF8315429C7D005F0FA2 /* UIPlaceHolderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF4C15429C7D005F0FA2 /* UIPlaceHolderTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF8415429C7D005F0FA2 /* UIPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF4D15429C7D005F0FA2 /* UIPlaceHolderTextView.m */; };
+		7D4ACF8715429C7D005F0FA2 /* Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF5115429C7D005F0FA2 /* Util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF8815429C7D005F0FA2 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF5215429C7D005F0FA2 /* Util.m */; };
+		7D4ACF8915429CB4005F0FA2 /* DLObjCUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF0C15429BFB005F0FA2 /* DLObjCUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF8C1542A1BD005F0FA2 /* UIImage+Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF8A1542A1BD005F0FA2 /* UIImage+Alpha.h */; };
+		7D4ACF8D1542A1BD005F0FA2 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF8B1542A1BD005F0FA2 /* UIImage+Alpha.m */; };
+		7D4ACF911542A540005F0FA2 /* TimeHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4ACF8F1542A540005F0FA2 /* TimeHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4ACF921542A540005F0FA2 /* TimeHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4ACF901542A540005F0FA2 /* TimeHelpers.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D4ACF0415429BFB005F0FA2 /* libDLObjCUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDLObjCUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4ACF0715429BFB005F0FA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D4ACF0B15429BFB005F0FA2 /* DLObjCUtils-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DLObjCUtils-Prefix.pch"; sourceTree = "<group>"; };
+		7D4ACF0C15429BFB005F0FA2 /* DLObjCUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLObjCUtils.h; sourceTree = "<group>"; };
+		7D4ACF1915429C7D005F0FA2 /* FPTuple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTuple.h; sourceTree = "<group>"; };
+		7D4ACF1A15429C7D005F0FA2 /* FPTuple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTuple.m; sourceTree = "<group>"; };
+		7D4ACF1B15429C7D005F0FA2 /* NSArray+FPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FPAdditions.h"; sourceTree = "<group>"; };
+		7D4ACF1C15429C7D005F0FA2 /* NSArray+FPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FPAdditions.m"; sourceTree = "<group>"; };
+		7D4ACF1D15429C7D005F0FA2 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		7D4ACF1E15429C7D005F0FA2 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		7D4ACF1F15429C7D005F0FA2 /* NSData+CocoaDevUsersAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CocoaDevUsersAdditions.h"; sourceTree = "<group>"; };
+		7D4ACF2015429C7D005F0FA2 /* NSData+CocoaDevUsersAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CocoaDevUsersAdditions.m"; sourceTree = "<group>"; };
+		7D4ACF2115429C7D005F0FA2 /* NSDate+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Additions.h"; sourceTree = "<group>"; };
+		7D4ACF2215429C7D005F0FA2 /* NSDate+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Additions.m"; sourceTree = "<group>"; };
+		7D4ACF2315429C7D005F0FA2 /* NSObject+KVCExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVCExtensions.h"; sourceTree = "<group>"; };
+		7D4ACF2415429C7D005F0FA2 /* NSObject+KVCExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVCExtensions.m"; sourceTree = "<group>"; };
+		7D4ACF2515429C7D005F0FA2 /* NSObject+ObserveActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ObserveActions.h"; sourceTree = "<group>"; };
+		7D4ACF2615429C7D005F0FA2 /* NSObject+ObserveActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ObserveActions.m"; sourceTree = "<group>"; };
+		7D4ACF2715429C7D005F0FA2 /* NSString+PercentEscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PercentEscape.h"; sourceTree = "<group>"; };
+		7D4ACF2815429C7D005F0FA2 /* NSString+PercentEscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PercentEscape.m"; sourceTree = "<group>"; };
+		7D4ACF2915429C7D005F0FA2 /* NSString+StringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringAdditions.h"; sourceTree = "<group>"; };
+		7D4ACF2A15429C7D005F0FA2 /* NSString+StringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringAdditions.m"; sourceTree = "<group>"; };
+		7D4ACF2B15429C7D005F0FA2 /* NSURL+ParameterParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+ParameterParsing.h"; sourceTree = "<group>"; };
+		7D4ACF2C15429C7D005F0FA2 /* NSURL+ParameterParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+ParameterParsing.m"; sourceTree = "<group>"; };
+		7D4ACF3015429C7D005F0FA2 /* PathUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PathUtils.c; sourceTree = "<group>"; };
+		7D4ACF3115429C7D005F0FA2 /* PathUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathUtils.h; sourceTree = "<group>"; };
+		7D4ACF3215429C7D005F0FA2 /* DLFolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLFolding.h; path = ../../DLFolding.h; sourceTree = "<group>"; };
+		7D4ACF3315429C7D005F0FA2 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SynthesizeSingleton.h; path = ../../SynthesizeSingleton.h; sourceTree = "<group>"; };
+		7D4ACF3515429C7D005F0FA2 /* InnerShadowDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnerShadowDrawing.h; sourceTree = "<group>"; };
+		7D4ACF3615429C7D005F0FA2 /* InnerShadowDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnerShadowDrawing.m; sourceTree = "<group>"; };
+		7D4ACF3715429C7D005F0FA2 /* UIColor+HelperAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HelperAdditions.h"; sourceTree = "<group>"; };
+		7D4ACF3815429C7D005F0FA2 /* UIColor+HelperAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HelperAdditions.m"; sourceTree = "<group>"; };
+		7D4ACF3915429C7D005F0FA2 /* UIControl+DLBlockAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+DLBlockAdditions.h"; sourceTree = "<group>"; };
+		7D4ACF3A15429C7D005F0FA2 /* UIControl+DLBlockAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+DLBlockAdditions.m"; sourceTree = "<group>"; };
+		7D4ACF3B15429C7D005F0FA2 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		7D4ACF3C15429C7D005F0FA2 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
+		7D4ACF3D15429C7D005F0FA2 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		7D4ACF3E15429C7D005F0FA2 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		7D4ACF3F15429C7D005F0FA2 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		7D4ACF4015429C7D005F0FA2 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		7D4ACF4115429C7D005F0FA2 /* UIKit+DrawingHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+DrawingHelpers.h"; sourceTree = "<group>"; };
+		7D4ACF4215429C7D005F0FA2 /* UIKit+DrawingHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIKit+DrawingHelpers.m"; sourceTree = "<group>"; };
+		7D4ACF4315429C7D005F0FA2 /* UITabBarController+HideableTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+HideableTabBar.h"; sourceTree = "<group>"; };
+		7D4ACF4415429C7D005F0FA2 /* UITabBarController+HideableTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+HideableTabBar.m"; sourceTree = "<group>"; };
+		7D4ACF4515429C7D005F0FA2 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		7D4ACF4615429C7D005F0FA2 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		7D4ACF4715429C7D005F0FA2 /* UIView+Sliding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Sliding.h"; sourceTree = "<group>"; };
+		7D4ACF4815429C7D005F0FA2 /* UIView+Sliding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Sliding.m"; sourceTree = "<group>"; };
+		7D4ACF4A15429C7D005F0FA2 /* PopoverManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverManager.h; sourceTree = "<group>"; };
+		7D4ACF4B15429C7D005F0FA2 /* PopoverManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverManager.m; sourceTree = "<group>"; };
+		7D4ACF4C15429C7D005F0FA2 /* UIPlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPlaceHolderTextView.h; sourceTree = "<group>"; };
+		7D4ACF4D15429C7D005F0FA2 /* UIPlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPlaceHolderTextView.m; sourceTree = "<group>"; };
+		7D4ACF5115429C7D005F0FA2 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		7D4ACF5215429C7D005F0FA2 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		7D4ACF8A1542A1BD005F0FA2 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		7D4ACF8B1542A1BD005F0FA2 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		7D4ACF8F1542A540005F0FA2 /* TimeHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeHelpers.h; sourceTree = "<group>"; };
+		7D4ACF901542A540005F0FA2 /* TimeHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeHelpers.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D4ACF0115429BFB005F0FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4ACF0815429BFB005F0FA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D4ACEF915429BFB005F0FA2 = {
+			isa = PBXGroup;
+			children = (
+				7D4ACF0915429BFB005F0FA2 /* DLObjCUtils */,
+				7D4ACF0615429BFB005F0FA2 /* Frameworks */,
+				7D4ACF0515429BFB005F0FA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D4ACF0515429BFB005F0FA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D4ACF0415429BFB005F0FA2 /* libDLObjCUtils.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D4ACF0615429BFB005F0FA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D4ACF0715429BFB005F0FA2 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D4ACF0915429BFB005F0FA2 /* DLObjCUtils */ = {
+			isa = PBXGroup;
+			children = (
+				7D4ACF0C15429BFB005F0FA2 /* DLObjCUtils.h */,
+				7D4ACF3215429C7D005F0FA2 /* DLFolding.h */,
+				7D4ACF3315429C7D005F0FA2 /* SynthesizeSingleton.h */,
+				7D4ACF1815429C7D005F0FA2 /* CoreFoundationAdditions */,
+				7D4ACF2F15429C7D005F0FA2 /* CoreGraphicsUtils */,
+				7D4ACF3415429C7D005F0FA2 /* UIKitAdditions */,
+				7D4ACF4915429C7D005F0FA2 /* UIKitUtils */,
+				7D4ACF4E15429C7D005F0FA2 /* Util */,
+				7D4ACF0A15429BFB005F0FA2 /* Supporting Files */,
+			);
+			path = DLObjCUtils;
+			sourceTree = "<group>";
+		};
+		7D4ACF0A15429BFB005F0FA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D4ACF0B15429BFB005F0FA2 /* DLObjCUtils-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D4ACF1815429C7D005F0FA2 /* CoreFoundationAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				7D4ACF1915429C7D005F0FA2 /* FPTuple.h */,
+				7D4ACF1A15429C7D005F0FA2 /* FPTuple.m */,
+				7D4ACF1B15429C7D005F0FA2 /* NSArray+FPAdditions.h */,
+				7D4ACF1C15429C7D005F0FA2 /* NSArray+FPAdditions.m */,
+				7D4ACF1D15429C7D005F0FA2 /* NSData+Base64.h */,
+				7D4ACF1E15429C7D005F0FA2 /* NSData+Base64.m */,
+				7D4ACF1F15429C7D005F0FA2 /* NSData+CocoaDevUsersAdditions.h */,
+				7D4ACF2015429C7D005F0FA2 /* NSData+CocoaDevUsersAdditions.m */,
+				7D4ACF2115429C7D005F0FA2 /* NSDate+Additions.h */,
+				7D4ACF2215429C7D005F0FA2 /* NSDate+Additions.m */,
+				7D4ACF2315429C7D005F0FA2 /* NSObject+KVCExtensions.h */,
+				7D4ACF2415429C7D005F0FA2 /* NSObject+KVCExtensions.m */,
+				7D4ACF2515429C7D005F0FA2 /* NSObject+ObserveActions.h */,
+				7D4ACF2615429C7D005F0FA2 /* NSObject+ObserveActions.m */,
+				7D4ACF2715429C7D005F0FA2 /* NSString+PercentEscape.h */,
+				7D4ACF2815429C7D005F0FA2 /* NSString+PercentEscape.m */,
+				7D4ACF2915429C7D005F0FA2 /* NSString+StringAdditions.h */,
+				7D4ACF2A15429C7D005F0FA2 /* NSString+StringAdditions.m */,
+				7D4ACF2B15429C7D005F0FA2 /* NSURL+ParameterParsing.h */,
+				7D4ACF2C15429C7D005F0FA2 /* NSURL+ParameterParsing.m */,
+			);
+			name = CoreFoundationAdditions;
+			path = ../../CoreFoundationAdditions;
+			sourceTree = "<group>";
+		};
+		7D4ACF2F15429C7D005F0FA2 /* CoreGraphicsUtils */ = {
+			isa = PBXGroup;
+			children = (
+				7D4ACF3015429C7D005F0FA2 /* PathUtils.c */,
+				7D4ACF3115429C7D005F0FA2 /* PathUtils.h */,
+			);
+			name = CoreGraphicsUtils;
+			path = ../../CoreGraphicsUtils;
+			sourceTree = "<group>";
+		};
+		7D4ACF3415429C7D005F0FA2 /* UIKitAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				7D4ACF3515429C7D005F0FA2 /* InnerShadowDrawing.h */,
+				7D4ACF3615429C7D005F0FA2 /* InnerShadowDrawing.m */,
+				7D4ACF3715429C7D005F0FA2 /* UIColor+HelperAdditions.h */,
+				7D4ACF3815429C7D005F0FA2 /* UIColor+HelperAdditions.m */,
+				7D4ACF3915429C7D005F0FA2 /* UIControl+DLBlockAdditions.h */,
+				7D4ACF3A15429C7D005F0FA2 /* UIControl+DLBlockAdditions.m */,
+				7D4ACF3B15429C7D005F0FA2 /* UIImage+Additions.h */,
+				7D4ACF3C15429C7D005F0FA2 /* UIImage+Additions.m */,
+				7D4ACF8A1542A1BD005F0FA2 /* UIImage+Alpha.h */,
+				7D4ACF8B1542A1BD005F0FA2 /* UIImage+Alpha.m */,
+				7D4ACF3D15429C7D005F0FA2 /* UIImage+Resize.h */,
+				7D4ACF3E15429C7D005F0FA2 /* UIImage+Resize.m */,
+				7D4ACF3F15429C7D005F0FA2 /* UIImage+RoundedCorner.h */,
+				7D4ACF4015429C7D005F0FA2 /* UIImage+RoundedCorner.m */,
+				7D4ACF4115429C7D005F0FA2 /* UIKit+DrawingHelpers.h */,
+				7D4ACF4215429C7D005F0FA2 /* UIKit+DrawingHelpers.m */,
+				7D4ACF4315429C7D005F0FA2 /* UITabBarController+HideableTabBar.h */,
+				7D4ACF4415429C7D005F0FA2 /* UITabBarController+HideableTabBar.m */,
+				7D4ACF4515429C7D005F0FA2 /* UIView+Additions.h */,
+				7D4ACF4615429C7D005F0FA2 /* UIView+Additions.m */,
+				7D4ACF4715429C7D005F0FA2 /* UIView+Sliding.h */,
+				7D4ACF4815429C7D005F0FA2 /* UIView+Sliding.m */,
+			);
+			name = UIKitAdditions;
+			path = ../../UIKitAdditions;
+			sourceTree = "<group>";
+		};
+		7D4ACF4915429C7D005F0FA2 /* UIKitUtils */ = {
+			isa = PBXGroup;
+			children = (
+				7D4ACF4A15429C7D005F0FA2 /* PopoverManager.h */,
+				7D4ACF4B15429C7D005F0FA2 /* PopoverManager.m */,
+				7D4ACF4C15429C7D005F0FA2 /* UIPlaceHolderTextView.h */,
+				7D4ACF4D15429C7D005F0FA2 /* UIPlaceHolderTextView.m */,
+			);
+			name = UIKitUtils;
+			path = ../../UIKitUtils;
+			sourceTree = "<group>";
+		};
+		7D4ACF4E15429C7D005F0FA2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7D4ACF8F1542A540005F0FA2 /* TimeHelpers.h */,
+				7D4ACF901542A540005F0FA2 /* TimeHelpers.m */,
+				7D4ACF5115429C7D005F0FA2 /* Util.h */,
+				7D4ACF5215429C7D005F0FA2 /* Util.m */,
+			);
+			name = Util;
+			path = ../../Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7D4ACF0215429BFB005F0FA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4ACF5315429C7D005F0FA2 /* FPTuple.h in Headers */,
+				7D4ACF5515429C7D005F0FA2 /* NSArray+FPAdditions.h in Headers */,
+				7D4ACF5715429C7D005F0FA2 /* NSData+Base64.h in Headers */,
+				7D4ACF5915429C7D005F0FA2 /* NSData+CocoaDevUsersAdditions.h in Headers */,
+				7D4ACF5B15429C7D005F0FA2 /* NSDate+Additions.h in Headers */,
+				7D4ACF5D15429C7D005F0FA2 /* NSObject+KVCExtensions.h in Headers */,
+				7D4ACF5F15429C7D005F0FA2 /* NSObject+ObserveActions.h in Headers */,
+				7D4ACF6115429C7D005F0FA2 /* NSString+PercentEscape.h in Headers */,
+				7D4ACF6315429C7D005F0FA2 /* NSString+StringAdditions.h in Headers */,
+				7D4ACF6515429C7D005F0FA2 /* NSURL+ParameterParsing.h in Headers */,
+				7D4ACF6A15429C7D005F0FA2 /* PathUtils.h in Headers */,
+				7D4ACF6B15429C7D005F0FA2 /* DLFolding.h in Headers */,
+				7D4ACF6C15429C7D005F0FA2 /* SynthesizeSingleton.h in Headers */,
+				7D4ACF6D15429C7D005F0FA2 /* InnerShadowDrawing.h in Headers */,
+				7D4ACF6F15429C7D005F0FA2 /* UIColor+HelperAdditions.h in Headers */,
+				7D4ACF7115429C7D005F0FA2 /* UIControl+DLBlockAdditions.h in Headers */,
+				7D4ACF7315429C7D005F0FA2 /* UIImage+Additions.h in Headers */,
+				7D4ACF7515429C7D005F0FA2 /* UIImage+Resize.h in Headers */,
+				7D4ACF7715429C7D005F0FA2 /* UIImage+RoundedCorner.h in Headers */,
+				7D4ACF7915429C7D005F0FA2 /* UIKit+DrawingHelpers.h in Headers */,
+				7D4ACF7B15429C7D005F0FA2 /* UITabBarController+HideableTabBar.h in Headers */,
+				7D4ACF7D15429C7D005F0FA2 /* UIView+Additions.h in Headers */,
+				7D4ACF7F15429C7D005F0FA2 /* UIView+Sliding.h in Headers */,
+				7D4ACF8115429C7D005F0FA2 /* PopoverManager.h in Headers */,
+				7D4ACF8315429C7D005F0FA2 /* UIPlaceHolderTextView.h in Headers */,
+				7D4ACF8715429C7D005F0FA2 /* Util.h in Headers */,
+				7D4ACF8915429CB4005F0FA2 /* DLObjCUtils.h in Headers */,
+				7D4ACF8C1542A1BD005F0FA2 /* UIImage+Alpha.h in Headers */,
+				7D4ACF911542A540005F0FA2 /* TimeHelpers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7D4ACF0315429BFB005F0FA2 /* DLObjCUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4ACF1115429BFB005F0FA2 /* Build configuration list for PBXNativeTarget "DLObjCUtils" */;
+			buildPhases = (
+				7D4ACF0015429BFB005F0FA2 /* Sources */,
+				7D4ACF0115429BFB005F0FA2 /* Frameworks */,
+				7D4ACF0215429BFB005F0FA2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLObjCUtils;
+			productName = DLObjCUtils;
+			productReference = 7D4ACF0415429BFB005F0FA2 /* libDLObjCUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D4ACEFB15429BFB005F0FA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Things Made Out Of Other Things";
+			};
+			buildConfigurationList = 7D4ACEFE15429BFB005F0FA2 /* Build configuration list for PBXProject "DLObjCUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D4ACEF915429BFB005F0FA2;
+			productRefGroup = 7D4ACF0515429BFB005F0FA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D4ACF0315429BFB005F0FA2 /* DLObjCUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D4ACF0015429BFB005F0FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4ACF5415429C7D005F0FA2 /* FPTuple.m in Sources */,
+				7D4ACF5615429C7D005F0FA2 /* NSArray+FPAdditions.m in Sources */,
+				7D4ACF5815429C7D005F0FA2 /* NSData+Base64.m in Sources */,
+				7D4ACF5A15429C7D005F0FA2 /* NSData+CocoaDevUsersAdditions.m in Sources */,
+				7D4ACF5C15429C7D005F0FA2 /* NSDate+Additions.m in Sources */,
+				7D4ACF5E15429C7D005F0FA2 /* NSObject+KVCExtensions.m in Sources */,
+				7D4ACF6015429C7D005F0FA2 /* NSObject+ObserveActions.m in Sources */,
+				7D4ACF6215429C7D005F0FA2 /* NSString+PercentEscape.m in Sources */,
+				7D4ACF6415429C7D005F0FA2 /* NSString+StringAdditions.m in Sources */,
+				7D4ACF6615429C7D005F0FA2 /* NSURL+ParameterParsing.m in Sources */,
+				7D4ACF6915429C7D005F0FA2 /* PathUtils.c in Sources */,
+				7D4ACF6E15429C7D005F0FA2 /* InnerShadowDrawing.m in Sources */,
+				7D4ACF7015429C7D005F0FA2 /* UIColor+HelperAdditions.m in Sources */,
+				7D4ACF7215429C7D005F0FA2 /* UIControl+DLBlockAdditions.m in Sources */,
+				7D4ACF7415429C7D005F0FA2 /* UIImage+Additions.m in Sources */,
+				7D4ACF7615429C7D005F0FA2 /* UIImage+Resize.m in Sources */,
+				7D4ACF7815429C7D005F0FA2 /* UIImage+RoundedCorner.m in Sources */,
+				7D4ACF7A15429C7D005F0FA2 /* UIKit+DrawingHelpers.m in Sources */,
+				7D4ACF7C15429C7D005F0FA2 /* UITabBarController+HideableTabBar.m in Sources */,
+				7D4ACF7E15429C7D005F0FA2 /* UIView+Additions.m in Sources */,
+				7D4ACF8015429C7D005F0FA2 /* UIView+Sliding.m in Sources */,
+				7D4ACF8215429C7D005F0FA2 /* PopoverManager.m in Sources */,
+				7D4ACF8415429C7D005F0FA2 /* UIPlaceHolderTextView.m in Sources */,
+				7D4ACF8815429C7D005F0FA2 /* Util.m in Sources */,
+				7D4ACF8D1542A1BD005F0FA2 /* UIImage+Alpha.m in Sources */,
+				7D4ACF921542A540005F0FA2 /* TimeHelpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7D4ACF0F15429BFB005F0FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D4ACF1015429BFB005F0FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D4ACF1215429BFB005F0FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DLObjCUtils.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DLObjCUtils/DLObjCUtils-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7D4ACF1315429BFB005F0FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DLObjCUtils.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DLObjCUtils/DLObjCUtils-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D4ACEFE15429BFB005F0FA2 /* Build configuration list for PBXProject "DLObjCUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4ACF0F15429BFB005F0FA2 /* Debug */,
+				7D4ACF1015429BFB005F0FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D4ACF1115429BFB005F0FA2 /* Build configuration list for PBXNativeTarget "DLObjCUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4ACF1215429BFB005F0FA2 /* Debug */,
+				7D4ACF1315429BFB005F0FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D4ACEFB15429BFB005F0FA2 /* Project object */;
+}
